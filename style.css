@@ -1,0 +1,35 @@
+body{
+    background: rgb(122, 119, 119);
+    color: #fff;
+}
+
+#container{
+    width: 50%;
+    border: 5px solid #8f4e4e;
+    margin: 0 auto;
+    padding: 3rem;
+    margin-top: 3rem;
+}
+
+span{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.fa{
+    color: #ff0000;
+}
+
+.done{
+    color: #a1a1a1;
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 468px){
+    h1{
+        font-size: 1.7rem;
+    }
+    input{
+        width: 110px;
+    }
+}
